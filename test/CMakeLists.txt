@@ -6,7 +6,7 @@ set(TEST_FILES
 
 add_executable(test_runner test_runner.c ${TEST_FILES})
 
-target_link_libraries(test_runner PRIVATE colle_c)
+target_link_libraries(test_runner PRIVATE collec)
 
 add_custom_target(run-tests
     COMMAND ./test_runner

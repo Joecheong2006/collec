@@ -1,4 +1,4 @@
-#include <colle_c.h>
+#include <collec.h>
 #include "test.h"
 
 UNIT(sum) {
