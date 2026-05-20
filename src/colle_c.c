@@ -1,4 +1,4 @@
-#include "colle-c.h"
+#include "colle_c.h"
 
 int sum(int a, int b) {
     return a + b;
